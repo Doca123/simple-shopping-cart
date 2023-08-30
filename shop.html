@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Shop</title>
+</head>
+<body>
+  <nav>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  <header>
+  <div class="page-content">
+    <h1>Shop</h1>
+    </header>
+    <div class="products">
+        <div class="product">
+          <img src="panda.jpg" alt="Product 1" class="product-image">
+          <h2>Product 1</h2>
+          <p>Price: $10</p>
+          <input type="number" class="quantity-input" min="1" value="1">
+          <button class="add-to-cart" data-id="1">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="panda.jpg" alt="Product 2" class="product-image">
+          <h2>Product 2</h2>
+          <p>Price: $15</p>
+          <input type="number" class="quantity-input" min="1" value="1">
+          <button class="add-to-cart" data-id="2">Add to Cart</button>
+        </div>
+        <!-- Add more products following a similar structure -->
+        <div class="product">
+          <img src="panda.jpg" alt="Product 3" class="product-image">
+          <h2>Product 3</h2>
+          <p>Price: $20</p>
+          <input type="number" class="quantity-input" min="1" value="1">
+          <button class="add-to-cart" data-id="3">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="panda.jpg" alt="Product 4" class="product-image">
+          <h2>Product 4</h2>
+          <p>Price: $25</p>
+          <input type="number" class="quantity-input" min="1" value="1">
+          <button class="add-to-cart" data-id="4">Add to Cart</button>
+        </div>
+      </div>
+      
+      <div class="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items">
+          <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p>Total: $<span id="cart-total">0</span></p>
+        <button id="clear-cart">Pay</button>
+      </div>
+      
+      <script src="script.js"></script>
+    </body>
+    </html>
+  
+    
+    
+    
+    
